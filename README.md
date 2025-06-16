@@ -1,5 +1,4 @@
 ## To do
-- Make your new probability rank matrix work (both of em) (currently falling back on d_obs every time)
 - Make datasets actually noisy, and do tests with increased noise and blobs
 - Look at notes you took during meeting with Professor Smith
 - Do step 0 that professor smith mentioned
