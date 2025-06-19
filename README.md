@@ -1,4 +1,5 @@
 ## To do
+- Set up a virtual environment for this specific project 
 - Make datasets actually noisy, and do tests with increased noise and blobs
 - Look at notes you took during meeting with Professor Smith
 - Do step 0 that professor smith mentioned
