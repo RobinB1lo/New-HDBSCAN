@@ -7,6 +7,7 @@
 - Read and understand documents last sent by Prof smith - 
 - Implement deconvolution - 
 - Maybe work with step 1 and 2 - 
+- What exactly are mixture models? - 
 - Start trying the abstract approaches that were pitched or new ones - 
 
 
