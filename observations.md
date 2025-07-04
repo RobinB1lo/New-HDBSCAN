@@ -1,0 +1,3 @@
+### We will write our observations from our tests here from now on
+
+- After running tests for: Noise level of 1.5 for 2‑component Gaussian mixture with dual‑spread overlays (8 points a part (euclidian distance from mean to mean)), I noticed that HDBSCAN simply with a probability rank matrix can be risky and can sometimes score a very low or very high ARI (but stays around the same on average), but adding our threshold avoids this risk and even when the probabaility rank matrix HDBSCAN performed poorly the threshold probabaility rank amtrix performed well (normally)
