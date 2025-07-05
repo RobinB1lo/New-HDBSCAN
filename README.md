@@ -10,6 +10,7 @@
 - What exactly are mixture models? - 
 - Start trying the abstract approaches that were pitched or new ones - 
 
+### something we have not yet explored is changing the type of noise added to the blobs, as of right now we have only used gaussian noise
 
 ## List of tests to try:
 1. Non-convex / irregular shapes
