@@ -10,7 +10,7 @@
 - What exactly are mixture models? - 
 - Start trying the abstract approaches that were pitched or new ones - 
 
-### something we have not yet explored is changing the type of noise added to the blobs, as of right now we have only used gaussian noise
+### something we have not yet explored is changing the type of noise added to the blobs, as of right now we have only used gaussian noise. Also we have not changed hthe # of k nearest neighbours
 
 ## List of tests to try:
 1. Non-convex / irregular shapes
@@ -45,3 +45,6 @@ Industry use: user‐behavior time‑series that lie on low‑dimensional manif
     - Gaussian core plus a few Cauchy or t‑distributed outliers
 
 Industry use: financial transactions with occasional extreme events; network‐traffic bursts.
+
+
+understand and implement the FFS(watch vid and ask chat), add it to resume, do some quant interview stuff, tell nicholas you ready, do c++ stuff
