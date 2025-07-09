@@ -3,8 +3,8 @@
 - Make datasets actually noisy, and do tests with increased noise and blobs - ✅ 
 - Look at notes you took during meeting with Professor Smith - ✅ 
 - Do step 0 that professor smith mentioned - ✅ 
-- Try out step 0 with some tests - 
-- Read and understand documents last sent by Prof smith - 
+- Try out step 0 with some tests - ✅ 
+- Read and understand deconvolution - 
 - Implement deconvolution - 
 - Maybe work with step 1 and 2 - 
 - What exactly are mixture models? - 
@@ -45,6 +45,3 @@ Industry use: user‐behavior time‑series that lie on low‑dimensional manif
     - Gaussian core plus a few Cauchy or t‑distributed outliers
 
 Industry use: financial transactions with occasional extreme events; network‐traffic bursts.
-
-
-understand and implement the FFS(watch vid and ask chat), add it to resume, do some quant interview stuff, tell nicholas you ready, do c++ stuff
