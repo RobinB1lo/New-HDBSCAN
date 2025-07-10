@@ -4,10 +4,10 @@
 - Look at notes you took during meeting with Professor Smith - ✅ 
 - Do step 0 that professor smith mentioned - ✅ 
 - Try out step 0 with some tests - ✅ 
+- What exactly are mixture models? - ✅ 
 - Read and understand deconvolution - 
 - Implement deconvolution - 
 - Maybe work with step 1 and 2 - 
-- What exactly are mixture models? - 
 - Start trying the abstract approaches that were pitched or new ones - 
 
 ### something we have not yet explored is changing the type of noise added to the blobs, as of right now we have only used gaussian noise. Also we have not changed hthe # of k nearest neighbours
