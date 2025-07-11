@@ -5,7 +5,7 @@
 - Do step 0 that professor smith mentioned - ✅ 
 - Try out step 0 with some tests - ✅ 
 - What exactly are mixture models? - ✅ 
-- Read and understand deconvolution - 
+- Read and understand deconvolution - ✅ 
 - Implement deconvolution - 
 - Maybe work with step 1 and 2 - 
 - Start trying the abstract approaches that were pitched or new ones - 
