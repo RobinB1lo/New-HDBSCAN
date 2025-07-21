@@ -6,11 +6,14 @@
 - Try out step 0 with some tests - ✅ 
 - What exactly are mixture models? - ✅ 
 - Read and understand deconvolution - ✅ 
-- Implement deconvolution (Step 1) - 
-- Test Step 1 - 
-- Implement step 2 -  
-- Maybe work with step 1 and 2 (from conversation) - 
-- Start trying the abstract approaches that were pitched or new ones - 
+- Implement deconvolution (Step 1) - ✅ 
+- Test Step 1 - ✅ (Did not do well)
+- Implemented The "bad part" from email - ✅ 
+- Read and understand second part of email - 
+- Look in the hdbscan code to see ways of imporving the evaluation of probaability using counting and density - 
+- Improve the densisty and probability estimates you find - 
+- Answer the question "how do I actually do deconvolution when I only have access to the nearest-neighbour graph?" - 
+
 
 ### something we have not yet explored is changing the type of noise added to the blobs, as of right now we have only used gaussian noise. Also we have not changed hthe # of k nearest neighbours
 
