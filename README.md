@@ -9,8 +9,9 @@
 - Implement deconvolution (Step 1) - ✅ 
 - Test Step 1 - ✅ (Did not do well)
 - Implemented The "bad part" from email - ✅ 
-- Read and understand second part of email - 
-- Look in the hdbscan code to see ways of imporving the evaluation of probaability using counting and density - 
+- Read and understand second part of email - ✅
+- Build an h valuye that adapts to noise -  
+- Look in the hdbscan code to see ways of imporving the evaluation of probability using counting and density, make a list of where each instance of this is  - 
 - Improve the densisty and probability estimates you find - 
 - Answer the question "how do I actually do deconvolution when I only have access to the nearest-neighbour graph?" - 
 
