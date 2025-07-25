@@ -12,6 +12,7 @@
 - Read and understand second part of email - ✅
 - Build an h valuye that adapts to noise -  ✅
 - Look in the hdbscan code to see ways of imporving the evaluation of probability using counting and density, make a list of where each instance of this is  - 
+- Read last part of email referring to "nearest neighbours graph" - 
 - The current deconvolution algorthm is outperforming hdbscan, try and improve it as much as possible before implementing the change of variable formula 
 - Implement the change of variable formula to "push forward" your density into the 1 d array to then make it easier to "deconvolve"
 - Improve the densisty and probability estimates from your list - 
