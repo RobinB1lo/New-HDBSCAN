@@ -16,5 +16,5 @@ From now on we will keep our questions and meeting notes in this directory. THe 
     - If yes, could we have an intro to the project 
 
 ### Notes during meeting
-
+Note 1
 - 
