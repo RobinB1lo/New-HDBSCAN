@@ -11,7 +11,7 @@
 - Implemented The "bad part" from email - ✅ 
 - Read and understand second part of email - ✅
 - Build an h valuye that adapts to noise -  ✅
-- Look in the hdbscan code to see ways of imporving the evaluation of probability using counting and density, make a list of where each instance of this is  - ✅
+- Look in the hdbscan code to see ways of imporving the evaluation of probability using counting and density, make a list of where each instance of this is  - ✅ 
 - Implement the method mentioned last meeting - 
 - Read last part of email referring to "nearest neighbours graph" - 
 - The current deconvolution algorthm is outperforming hdbscan, try and improve it as much as possible before implementing the change of variable formula 

@@ -12,6 +12,8 @@ From now on we will keep our questions and meeting notes in this directory. THe 
 
 - Would it be possible to re-explain the formula we spoke about last meeting, I did not fully understand when looking back at the picture and therefore I was not able to implement it?
 
+- When you said we should look in hdbscan when the probabaility is determined using counting, should we strictly look in the boruvka file?
+
 - We still have some way to go for this project, but I was reading up on SAE vizualiations which was in your initial email and I was wondering if you think we could make any contributions to that project. If you think it is best to simply stick with New-HDBSCAN I completely understand also, but we do not mind at all to be working on both projects as they are both super interesting
     - If yes, could we have an intro to the project 
 
