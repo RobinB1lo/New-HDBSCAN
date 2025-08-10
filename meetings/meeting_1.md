@@ -23,7 +23,6 @@ From now on we will keep our questions and meeting notes in this directory. THe 
 - No nice deconvolution fomrula for squared observations (so it makes change of variable difficult)
 
 - We should start wit implementing the posterior probability formula that we spoke about last time (the one inside the algorithm)
-
     - The formula is in the picture, 1 is inputtable into vanilla hdbscan, and 2 is the same inputting into monte carlo but different computation
         - Try in 2d and to get a good estimate 
         - Maybe mess with the algebra for the distances computatoon (Read this paper it could help ("Tykanov Regularization"))
@@ -54,4 +53,12 @@ From now on we will keep our questions and meeting notes in this directory. THe 
 
 - Empirical word meaning
 
-- 
+### To do before next meeting (ordered)
+                                                                                                            
+- Turn the observations back to normal instead of change of variable formula (to do later) -> Done ✅                      
+    - We do this because there is no good formula for deconvolution with our change of variable
+        - A next step could be trying to find a formula for change of variable that works well with deconvolution
+
+- Implement the equation that we spoke about last meeting in both ways:
+    - Feed the deconvolved observations directly into HDBSCAN (which I am petty sure we already do)
+    - Make a matrix that 
