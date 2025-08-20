@@ -31,6 +31,8 @@ From now on we will keep our questions and meeting notes in this directory. THe 
 
 - Pre print on SAE vizualtion (David Blei most recent papers on topic modelling) (look up on arxive) (enjalot blog and github for sae viz)
 
+- Look up mechanisitic neural networks for machine learning - this is a whole field that also encompasses the SAE stuff
+
 - Vizualitons in google coolab (you should do the vizualitions of enjalot's github in google coolab)
 
 - Reserach what "Topic modelling" is 
@@ -41,7 +43,7 @@ From now on we will keep our questions and meeting notes in this directory. THe 
 
 - SAE are autoencoders, 
 
-- RESEARCH AUTOUENCODERS BEFORE ANYTHING ON SAE 
+- RESEARCH AUTOUENCODERS BEFORE ANYTHING ON SAE
 
 - You take the in between of the LLM process, and train with that data, you then 
 
