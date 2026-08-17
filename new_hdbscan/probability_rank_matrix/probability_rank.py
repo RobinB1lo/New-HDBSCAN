@@ -47,6 +47,7 @@ class ProbabilityRankPipeline:
 
     @staticmethod
     def _pairwise_distances(dataset: np.ndarray) -> np.ndarray:
+        """Computes the pairwise euclidian distances between rows of the dataset."""
         return np.linalg.norm(dataset[:, None, :] - dataset[None, :, :], axis=2)
 
     def _sample_observed_dataset(
@@ -54,9 +55,11 @@ class ProbabilityRankPipeline:
         dataset: np.ndarray,
         std: float,
     ) -> np.ndarray:
+        """Samples a new observed dataset by adding Gaussian noise to the original dataset."""
         return dataset + self.rng.normal(scale=std, size=dataset.shape)
 
     def create_base_matrix(self, n: int) -> np.ndarray:
+        """Creates an empty base matrix to accumulate counts of close-enough pairs."""
         return np.zeros((n, n), dtype=np.int32)
 
     def create_probability_rank_matrix(
@@ -67,6 +70,7 @@ class ProbabilityRankPipeline:
         sims: int,
         k: int,
     ) -> np.ndarray:
+        """Creates the probabaility rank matric by running Monte Carlo simulations and counting close-enough pairs."""
         n_samples = dataset.shape[0]
 
         for _ in range(sims):
@@ -91,6 +95,7 @@ class ProbabilityRankPipeline:
         observed_dataset_fixed: np.ndarray,
         k: int,
     ) -> np.ndarray:
+        """Calculates the uncertainty-aware core distances between each point and its k-th nearest neighbour in the observed dataset, using the probability rank matrix to determine which points are close enough."""
         n_samples = observed_dataset_fixed.shape[0]
         if probability_rank_matrix.shape != (n_samples, n_samples):
             raise ValueError(
@@ -123,6 +128,7 @@ class ProbabilityRankPipeline:
         core_distances: np.ndarray,
         observed_dataset_fixed: np.ndarray,
     ) -> np.ndarray:
+        """Calculates the mutual reachibility matrix using the core distances and the observed dataset."""
         n_samples = observed_dataset_fixed.shape[0]
         if core_distances.shape != (n_samples,):
             raise ValueError("core_distances must have shape (n_samples,).")
@@ -142,19 +148,22 @@ class ProbabilityRankPipeline:
         )
 
     def run_fast_hdbscan(self, mutual: np.ndarray, k: int) -> np.ndarray:
+        """Runs fast_hdbscan on the mutual reachability matrix to obtain cluster labels."""
         clusterer = HDBSCAN(
             metric="precomputed",
             min_samples=k,
             min_cluster_size=k,
         )
-
+        
         return clusterer.fit_predict(mutual)
 
     @staticmethod
     def calculate_ari(true_labels: np.ndarray, pred_labels: np.ndarray) -> float:
+        """Calculates the Adjusted Rand Index between the true labels and the predicted labels."""
         return adjusted_rand_score(true_labels, pred_labels)
 
     def run(self) -> np.ndarray:
+        """Runs the full probability rank pipeline and returns the predicted cluster labels."""
         base_matrix = self.create_base_matrix(self.n)
         probability_rank_matrix = self.create_probability_rank_matrix(
             base_matrix,
@@ -182,4 +191,5 @@ class ProbabilityRankPipeline:
         return pred_labels
 
     def main(self) -> np.ndarray:
+        """Main method to run the pipeline and return predicted labels."""
         return self.run()

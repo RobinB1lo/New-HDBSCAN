@@ -1,4 +1,4 @@
-#!/Users/robinbilodeau/Desktop/repos/New-HDBSCAN/env/bin/python3
+#!/Users/robinbilodeau/Desktop/repos/New-HDBSCAN/env/bin/python
 # -*- coding: utf-8 -*-
 import re
 import sys
