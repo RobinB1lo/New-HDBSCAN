@@ -20,16 +20,16 @@ This project extends HDBSCAN with novel density estimation methods to improve cl
 - Extend noise types beyond Gaussian (Laplacian, mixture distributions)
 - Benchmark on real-world datasets
 
-## Test Suite
+## Tests
 
 Six benchmark scenarios covering real-world challenges:
 
-1. **Non-Convex Shapes** — half-moons, concentric circles, spirals
-2. **Varying Densities** — multi-scale Gaussian blobs, background clutter
-3. **Anisotropic Clusters** — elongated, linearly-transformed blobs
-4. **Hierarchical (Nested) Clusters** — Gaussian-in-Gaussian-in-Gaussian
-5. **High-Dimensional Manifolds** — Swiss-roll in 10+ dims
-6. **Heavy-Tailed Distributions** — Gaussian core + Cauchy/t-distributed outliers
+1. **Non-Convex Shapes** - half-moons, concentric circles, spirals
+2. **Varying Densities** - multi-scale Gaussian blobs, background clutter
+3. **Anisotropic Clusters** - elongated, linearly-transformed blobs
+4. **Hierarchical (Nested) Clusters** - Gaussian-in-Gaussian-in-Gaussian
+5. **High-Dimensional Manifolds** - Swiss-roll in 10+ dims
+6. **Heavy-Tailed Distributions** - Gaussian core + Cauchy/t-distributed outliers
 
 ## Dependencies
 
